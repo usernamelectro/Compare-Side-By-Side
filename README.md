@@ -41,3 +41,7 @@ License & Contributing
 ---
  - [MIT license](LICENSE)
  - Pull requests welcome!
+
+Edit
+---
+ - Code was taken from https://bitbucket.org/dougty/sublime-compare-side-by-side/
