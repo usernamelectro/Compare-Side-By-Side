@@ -568,7 +568,10 @@ class SbsCompareCommand( sublime_plugin.TextCommand ):
 			new_window.run_command( 'insert_view', { 'string': view1_contents } )
 			new_window.active_view().set_syntax_file( view1_syntax )
 			new_window.active_view().set_name( view_prefix + view1_name )
-				
+			
+			# move view 1 to group 1
+            		new_window.set_view_index( new_window.active_view(), 0, 0 )
+			
 			new_window.active_view().set_scratch( True )	
 			view1 = new_window.active_view()
 			
